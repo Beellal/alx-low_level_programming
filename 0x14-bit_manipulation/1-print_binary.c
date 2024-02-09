@@ -21,13 +21,6 @@ unsigned long int _pow(unsigned int base, unsigned int power)
 	return (num);
 }
 
-/**
- * print_binary - Affiche la représentation binaire d'un nombre.
- * @n: Le nombre à afficher en binaire.
- *
- * Description: Cette fonction prend un entier non signé et affiche sa
- * représentation binaire en utilisant le putchar.
- */
 
 void print_binary(unsigned long int n)
 {
@@ -52,4 +45,3 @@ void print_binary(unsigned long int n)
 	}
 
 }
-
