@@ -1,6 +1,14 @@
 #include "main.h"
 
-
+/**
+ * _pow - Calcule la puissance de 2.
+ * @x: Le nombre à élever à la puissance de 2.
+ * @y: L'exposant.
+ *
+ * Return: La valeur de x élevée à la puissance de y.
+ *
+ * Description: Cette fonction calcule la valeur de x élevée à la puissance de y.
+ */
 
 unsigned long int _pow(unsigned int base, unsigned int power)
 {
@@ -13,6 +21,13 @@ unsigned long int _pow(unsigned int base, unsigned int power)
 	return (num);
 }
 
+/**
+ * print_binary - Affiche la représentation binaire d'un nombre.
+ * @n: Le nombre à afficher en binaire.
+ *
+ * Description: Cette fonction prend un entier non signé et affiche sa
+ * représentation binaire en utilisant le putchar.
+ */
 
 void print_binary(unsigned long int n)
 {
