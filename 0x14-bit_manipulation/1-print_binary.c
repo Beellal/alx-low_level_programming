@@ -1,14 +1,5 @@
 #include "main.h"
 
-/**
- * _pow - Calcule la puissance de 2.
- * @x: Le nombre à élever à la puissance de 2.
- * @y: L'exposant.
- *
- * Return: La valeur de x élevée à la puissance de y.
- *
- * Description: Cette fonction calcule la valeur de x élevée à la puissance de y.
- */
 
 unsigned long int _pow(unsigned int base, unsigned int power)
 {
